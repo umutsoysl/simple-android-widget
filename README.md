@@ -9,7 +9,7 @@ Just have a look at the code, or better still, clone it to a local repository in
 
 git clone
 ```
-https://github.com/pdrogfer/Simple-Android-Widget-App.git
+https://github.com/umutsoysl/simple-android-widget.git
 ```
 and open it in Android Studio. Feel free to create pull requests to improve the implementation or documentation so it will help others. 
 
