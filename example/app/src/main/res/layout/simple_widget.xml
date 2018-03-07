@@ -1,0 +1,75 @@
+<RelativeLayout android:layout_width="fill_parent"
+    android:id="@+id/ustbilgi"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="#55383838"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstLayout"
+        android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/logo"
+                android:layout_marginRight="16dp"
+                android:id="@+id/logom"
+                android:layout_alignParentRight="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="#f5f5f5"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true"
+            android:text="Example Service Widget"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#d6d6d6"
+            android:layout_marginTop="8dp"
+           android:layout_below="@+id/logom"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/counter"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Wait 5 second"
+        android:layout_below="@+id/firstLayout"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/buttonPanel"
+        android:layout_margin="5dp"
+        android:background="#55060606"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/counter"
+        android:text="Random" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/buttonPanel2"
+            android:layout_margin="5dp"
+            android:background="#55060606"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/buttonPanel"
+            android:text="Go App" />
+
+
+
+</RelativeLayout>
