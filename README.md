@@ -15,4 +15,4 @@ and open it in Android Studio. Feel free to create pull requests to improve the 
 
 Give me a star if you find it useful! Another great milestone in my Simple series. Enjoy!
 
-https://github.com/umutsoysl/simple-android-widget/ScreenShot/widget.jpg
+https://github.com/umutsoysl/simple-android-widget/blob/master/ScreenShot/widget.jpg
